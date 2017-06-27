@@ -1,0 +1,16 @@
+AC_INIT(hello.c)
+AM_INIT_AUTOMAKE(hello,1.0)
+
+#check for programs
+AC_PROG_CC
+
+#checks for libraries
+
+#checks for header files
+
+#checks for typedefs,structures,and compiler characteristics
+
+#check for library functions
+AC_OUTPUT(Makefile)
+
+#this is ending file

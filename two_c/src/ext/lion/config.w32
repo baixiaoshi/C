@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("lion", "for lion support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("lion", "enable lion support", "no");
+
+if (PHP_LION != "no") {
+	EXTENSION("lion", "lion.c");
+}
+
