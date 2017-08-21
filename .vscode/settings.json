@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "_s_ifmt.h": "c",
+        "sapi.h": "c",
+        "zend_stream.h": "c"
+    }
+}

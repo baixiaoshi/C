@@ -16,12 +16,12 @@
 int main(int argc, char *argv[])
 {
     mkfifo("tp", 0644);
-    int infd = open("/tmp/test.txt", O_RDONLY|O_NONBLOCK);
+    int infd = open("/tmp/test.txt", O_RDONLY);
     if (infd == -1)
         ERR_EXIT("open error");
 
     int outfd;
-    outfd = open("tp", O_WRONLY|O_NONBLOCK);
+    outfd = open("tp", O_WRONLY);
     if (outfd == -1)
         ERR_EXIT("open error");
 
