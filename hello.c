@@ -1,37 +1,16 @@
-#include<sys/types.h>
-#include<sys/stat.h>
-#include<unistd.h>
-#include<fcntl.h>
-#include<stdio.h>
-#include<stdlib.h>
-#include<errno.h>
-#include<string.h>
-#include<signal.h>
-#define ERR_EXIT(m) \
-    do { \
-        perror(m); \
-        exit(EXIT_FAILURE); \
-    } while(0)
+#include <stdio.h>
+#include <string.h>
 
-int main(int argc, char *argv[])
-{
-    mkfifo("tp", 0644);
-    int infd = open("/tmp/test.txt", O_RDONLY|O_NONBLOCK);
-    if (infd == -1)
-        ERR_EXIT("open error");
+int main(int argc, char *argv[]) {
 
-    int outfd;
-    outfd = open("tp", O_WRONLY|O_NONBLOCK);
-    if (outfd == -1)
-        ERR_EXIT("open error");
 
-    char buf[1024];
-    int n;
-    while ((n = read(infd, buf, 1024)) > 0)
-        write(outfd, buf, n);
+    char name[6];
 
-    close(infd);
-    close(outfd);
+    strcpy(name, "hello\0");
+
+    printf("name=%s\n", name);
 
     return 0;
+
+
 }
