@@ -3,6 +3,15 @@
         "stdio.h": "c",
         "_s_ifmt.h": "c",
         "sapi.h": "c",
-        "zend_stream.h": "c"
+        "zend_stream.h": "c",
+        "__bit_reference": "c",
+        "__split_buffer": "c",
+        "deque": "c",
+        "initializer_list": "c",
+        "ios": "c",
+        "iterator": "c",
+        "string": "c",
+        "vector": "c",
+        "system_error": "c"
     }
 }
