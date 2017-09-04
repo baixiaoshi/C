@@ -3,14 +3,15 @@
 
 int main(int argc, char *argv[]) {
 
+    printf("%s\n", HAHA);
+    char name[] = "hello";
+    const char *str = "hello";
 
-    char name[6];
+    printf("strlen=%lu\n", strlen(name));
+    printf("sizeof=%lu\n", sizeof(name));
 
-    strcpy(name, "hello\0");
-
-    printf("name=%s\n", name);
-
+    printf("strlen=%lu\n", strlen(str));
+    printf("sizeof=%lu\n", sizeof(str));
     return 0;
-
 
 }

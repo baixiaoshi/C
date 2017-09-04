@@ -3,7 +3,16 @@
 
 int main(int argc,char *argv[])
 {
-	
+    int *p1;
+    
+    int a = 10;
+    p1 = &a;
+    int *p2 = p1;
+    
+    printf("p1=%p, p2=%p\n", p1, p2);
+    return 0;
+
+
 	printf("argc=%d\n",argc);
 	printf("argv=%s\n",argv[0]);
 	char *lines[5] = {"hello","world","nihao","guoguo","hang"};
