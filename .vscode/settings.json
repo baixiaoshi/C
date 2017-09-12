@@ -19,6 +19,7 @@
         "__locale": "c",
         "functional": "c",
         "in.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "stdlib.h": "c"
     }
 }
