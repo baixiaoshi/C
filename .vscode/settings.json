@@ -12,6 +12,13 @@
         "iterator": "c",
         "string": "c",
         "vector": "c",
-        "system_error": "c"
+        "system_error": "c",
+        "types.h": "c",
+        "unistd.h": "c",
+        "ratio": "c",
+        "__locale": "c",
+        "functional": "c",
+        "in.h": "c",
+        "typeinfo": "c"
     }
 }
