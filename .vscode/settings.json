@@ -20,6 +20,8 @@
         "functional": "c",
         "in.h": "c",
         "typeinfo": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "queue": "c",
+        "algorithm": "c"
     }
 }
