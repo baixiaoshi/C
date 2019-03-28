@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/lion/wwwroot/c/C/leetcode/build",
+  "command": "/usr/bin/clang   -g   -o CMakeFiles/main.dir/link-list_two_sum.c.o   -c /Users/lion/wwwroot/c/C/leetcode/link-list_two_sum.c",
+  "file": "/Users/lion/wwwroot/c/C/leetcode/link-list_two_sum.c"
+}
+]
