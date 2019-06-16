@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/lion/wwwroot/c/C/data_struct/build",
+  "command": "/usr/bin/clang   -g   -o CMakeFiles/main.dir/main.c.o   -c /Users/lion/wwwroot/c/C/data_struct/main.c",
+  "file": "/Users/lion/wwwroot/c/C/data_struct/main.c"
+},
+{
+  "directory": "/Users/lion/wwwroot/c/C/data_struct/build",
+  "command": "/usr/bin/clang   -g   -o CMakeFiles/main.dir/avltree/avltree.c.o   -c /Users/lion/wwwroot/c/C/data_struct/avltree/avltree.c",
+  "file": "/Users/lion/wwwroot/c/C/data_struct/avltree/avltree.c"
+}
+]

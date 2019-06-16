@@ -1,0 +1,8 @@
+{
+    "C_Cpp.configurationWarnings": "Disabled",
+    "files.associations": {
+        "btree.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}

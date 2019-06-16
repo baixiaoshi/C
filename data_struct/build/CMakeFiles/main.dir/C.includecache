@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lion/wwwroot/c/C/data_struct/avltree/avltree.c
+stdio.h
+-
+stdlib.h
+-
+avltree.h
+/Users/lion/wwwroot/c/C/data_struct/avltree/avltree.h
+
+/Users/lion/wwwroot/c/C/data_struct/avltree/avltree.h
+
+/Users/lion/wwwroot/c/C/data_struct/bintree/btree.h
+
+/Users/lion/wwwroot/c/C/data_struct/main.c
+stdio.h
+-
+stdlib.h
+-
+bintree/btree.h
+/Users/lion/wwwroot/c/C/data_struct/bintree/btree.h
+avltree/avltree.h
+/Users/lion/wwwroot/c/C/data_struct/avltree/avltree.h
+

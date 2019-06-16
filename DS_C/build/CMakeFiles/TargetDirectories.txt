@@ -1,0 +1,3 @@
+/Users/lion/wwwroot/c/C/DS_C/build/CMakeFiles/rebuild_cache.dir
+/Users/lion/wwwroot/c/C/DS_C/build/CMakeFiles/edit_cache.dir
+/Users/lion/wwwroot/c/C/DS_C/build/CMakeFiles/main.dir

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/lion/wwwroot/c/C/DS_C/build",
+  "command": "/usr/bin/clang   -g   -o CMakeFiles/main.dir/testtree.c.o   -c /Users/lion/wwwroot/c/C/DS_C/testtree.c",
+  "file": "/Users/lion/wwwroot/c/C/DS_C/testtree.c"
+},
+{
+  "directory": "/Users/lion/wwwroot/c/C/DS_C/build",
+  "command": "/usr/bin/clang   -g   -o CMakeFiles/main.dir/tree.c.o   -c /Users/lion/wwwroot/c/C/DS_C/tree.c",
+  "file": "/Users/lion/wwwroot/c/C/DS_C/tree.c"
+}
+]

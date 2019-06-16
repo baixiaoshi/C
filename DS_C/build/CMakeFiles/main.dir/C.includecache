@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lion/wwwroot/c/C/DS_C/fatal.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/lion/wwwroot/c/C/DS_C/testtree.c
+tree.h
+/Users/lion/wwwroot/c/C/DS_C/tree.h
+stdio.h
+-
+
+/Users/lion/wwwroot/c/C/DS_C/tree.c
+tree.h
+/Users/lion/wwwroot/c/C/DS_C/tree.h
+stdlib.h
+-
+fatal.h
+/Users/lion/wwwroot/c/C/DS_C/fatal.h
+
+/Users/lion/wwwroot/c/C/DS_C/tree.h
+

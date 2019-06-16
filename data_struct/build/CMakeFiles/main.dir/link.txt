@@ -1,0 +1,1 @@
+/usr/bin/clang -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/avltree/avltree.c.o  -o main 
